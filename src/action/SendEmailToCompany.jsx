@@ -1,9 +1,9 @@
 import emailjs from "@emailjs/browser";
 
 export const SendEmailToCompany = async (email, subject, message) => {
-  const SERVICE_ID = process.env.SERVICE_ID;
-  const TEMPLATE_ID = process.env.TEMPLATE_ID;
-  const PUBLIC_KEY = process.env.EMAIL_KEY;
+  const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
   emailjs.init(PUBLIC_KEY);
   const templatePrams = {
