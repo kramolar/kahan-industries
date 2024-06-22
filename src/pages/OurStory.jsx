@@ -5,7 +5,7 @@ export const OurStory = () => {
   return (
     <div className="flex flex-col md:flex-row">
       <div className="flex-1">
-        <div className="text-4xl text-stone-700 mt-20 ml-12 font-normal">
+        <div className="text-4xl text-cyan-950 mt-20 ml-12 font-normal">
           Company Brief
         </div>
         <div className="ml-12 mt-12 text-lg">

@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div>
       <ImageComponent imgSrc={portPicture}/>
-      <div className="text-4xl text-stone-700 mt-12 ml-12 font-normal">
+      <div className="text-4xl text-cyan-950 mt-12 ml-12 font-normal">
         Investment Casting Supplier of Various Products
       </div>
       <div className="ml-12 mt-5 text-lg">
@@ -27,7 +27,7 @@ export const Home = () => {
         valves, control valves, solenoid valves, gears, gears, gear housings,
         shafts, brackets, fittings, connectors, and connectors, among others.
       </div>
-      <div className="text-4xl text-stone-700 mt-12 ml-12 font-normal">
+      <div className="text-4xl text-cyan-950 mt-12 ml-12 font-normal">
         Reason to Choose Us
       </div>
       <div className="ml-12 mt-5">
@@ -61,6 +61,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <div className="mt-24"></div>
     </div>
   );
 };

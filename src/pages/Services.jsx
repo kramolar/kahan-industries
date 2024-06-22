@@ -9,10 +9,10 @@ export const Services = () => {
       </div>
 
       <div className="flex-1">
-        <div className="text-4xl text-stone-700 mt-20 ml-12 font-normal">
+        <div className="text-4xl text-cyan-950 mt-20 ml-12 font-normal">
           Services
         </div>
-        <div className="text-6xl text-stone-700 ml-12 font-normal">
+        <div className="text-6xl text-cyan-950 ml-12 font-normal">
           Coming Soon...
         </div>
       </div>
