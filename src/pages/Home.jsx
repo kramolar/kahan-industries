@@ -1,10 +1,11 @@
 import tick from "../assets/tickmark.gif";
 import { ImageComponent } from "../components/ImageComponent";
-import portPicture from '../assets/port.jpg'
+import portPicture from "../assets/port.jpg";
 export const Home = () => {
   return (
     <div>
-      <ImageComponent imgSrc={portPicture}/>
+      <ImageComponent imgSrc={portPicture} />
+
       <div className="text-4xl text-cyan-950 mt-12 ml-12 font-normal">
         Investment Casting Supplier of Various Products
       </div>

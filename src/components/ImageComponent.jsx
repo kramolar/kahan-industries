@@ -6,7 +6,7 @@ export const ImageComponent = ({imgSrc}) => {
         src={imgSrc}
         alt="port picture"
         className="w-full"
-        style={{ height: "60vh", objectFit: "cover", objectPosition: "bottom" }}
+        style={{ height: "75vh", objectFit: "cover", objectPosition: "bottom" }}
       />
     </div>
   );
