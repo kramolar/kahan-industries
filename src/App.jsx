@@ -5,8 +5,11 @@ import { Appbar } from "./components/Appbar";
 import { OurStory } from "./pages/OurStory";
 import { Home } from "./pages/Home";
 import { ContactUs } from "./pages/ContactUs";
-import { Services } from "./pages/Services";
-import { MachiningShop } from "./pages/MachiningShop";
+
+import { FilledWax } from "./pages/FilledWax";
+import { RecycledWax } from "./pages/RecycledWax";
+import { UnfilledWax } from "./pages/UnfilledWax";
+import { StickyWax } from "./pages/StickyWax";
 
 function App() {
   return (
@@ -21,8 +24,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/our-story" element={<OurStory />} />
             <Route path="/contact-us" element={<ContactUs />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/machining-shop" element={<MachiningShop />} />
+            <Route path="/filled-wax" element={<FilledWax />} />
+            <Route path="/recycled-wax" element={<RecycledWax />} />
+            <Route path="/unfilled-wax" element={<UnfilledWax />} />
+            <Route path="/sticky-wax" element={<StickyWax />} />
           </Routes>
         </div>
       </BrowserRouter>

@@ -4,18 +4,22 @@ import pic3 from "../assets/3.jpg";
 import pic4 from "../assets/4.jpg";
 import { InquiryForm } from "../components/InquiryForm";
 import { SmallImage } from "../components/SmallImage";
+import { ImageComponent } from "../components/ImageComponent";
+import waxPouring from "../assets/waxPouring.jpg";
 
 export const ContactUs = () => {
   return (
-    <div>
-      <div className="flex justify-between pt-24 ml-8 mr-8">
-        <SmallImage srcImg={pic1} />
-        <SmallImage srcImg={pic2} />
-        <SmallImage srcImg={pic3} />
-        <SmallImage srcImg={pic4} />
+    <div className="container mx-auto pt-8 px-6 md:pt-16 sm:px-8 md:px-12 lg:px-16">
+      {/* Image Section */}
+      <div className="relative mb-8">
+        <ImageComponent imgSrc={waxPouring} />
       </div>
-      <div>
-        <InquiryForm />
+      
+      {/* Inquiry Form Section */}
+      <div className="flex justify-center">
+        <div className="w-full max-w-4xl">
+          <InquiryForm />
+        </div>
       </div>
     </div>
   );
