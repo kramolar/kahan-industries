@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         monteserrat: ['Montserrat', 'sans-serif'],
         abel: ['Abel', 'sans-serif']
+      },
+      colors: {
+        limeGreen : '#93B535'
       }
     },
   },

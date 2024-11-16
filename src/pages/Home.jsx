@@ -5,6 +5,7 @@ import { TextOverlay } from "../components/TextOverlay";
 import { SideImageComponent } from "../components/SideImageComponent";
 import bhavnagar_vertical from "../assets/bhavnagar_vertical.jpg";
 import { Link } from "react-router-dom";
+import { BottomBar } from "../components/bottomBar";
 export const Home = () => {
   return (
     <div>
@@ -162,6 +163,9 @@ export const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <BottomBar />
       </div>
 
       <div className="mt-12"></div>
